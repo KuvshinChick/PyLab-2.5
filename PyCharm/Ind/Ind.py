@@ -29,4 +29,4 @@ if __name__ == '__main__':
 
     # Adding elements from the tuple "p" by the indices of matching elements from the tuple "sq"
     S = sum(p[sq.index(i)] for i in sq if i < A)
-    print(S)
+    print(f'Sum of elements: {S}')
